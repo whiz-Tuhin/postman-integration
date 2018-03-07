@@ -149,9 +149,9 @@ var converter = {
 
 module.exports = converter;
 },{"./util.js":4,"json-schema-faker":130,"lodash":159,"postman-collection":170}],3:[function(require,module,exports){
-const yaml = require('js-yaml');
+var yaml = require('js-yaml');
 
-const parse = {
+var parse = {
   /**
    * Parses the given data as JSON
    *
@@ -573,9 +573,9 @@ var util = {
 module.exports = util;
 },{"json-schema-faker":130,"lodash":159,"postman-collection":170}],5:[function(require,module,exports){
 (function (process){
-const converter = require('./convert.js');
-const parse = require('./parse.js');
-const raml = require('raml-parser');
+var converter = require('./convert.js');
+var parse = require('./parse.js');
+var raml = require('raml-parser');
 
 
 var wrap =  {
